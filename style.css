@@ -11,6 +11,31 @@ body {
   height: 100%;
 }
 
+.header {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.search-bar {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.user-info {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.buttons {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 .sidebar {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -18,14 +43,6 @@ body {
   grid-row-end: 3;
   height: 100%;
 }
-
-.header {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
 .main-content {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -35,6 +52,9 @@ body {
 
 .sidebar,
 .header,
-.main-content {
+.main-content,
+.search-bar,
+.user-info,
+.buttons {
   border: 1px black solid;
 }
