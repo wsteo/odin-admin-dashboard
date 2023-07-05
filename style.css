@@ -22,16 +22,26 @@ body {
 }
 
 .search-bar {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr 1fr 1fr;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
 .user-info {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
+.user-info .text {
+  grid-column-start: 2;
+}
+
 .buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   grid-column-start: 2;
   grid-column-end: 3;
 }
