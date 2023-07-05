@@ -46,6 +46,11 @@ body {
   height: 100%;
 }
 
+.navigation {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
 .main-content {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -79,6 +84,8 @@ body {
 .announcements,
 .trending,
 .branding,
-.navigation {
+.navigation,
+.container-1,
+.container-2 {
   border: 1px black solid;
 }
