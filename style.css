@@ -113,3 +113,13 @@ body {
 .project-item {
   border: 1px black solid;
 }
+
+img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
