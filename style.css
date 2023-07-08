@@ -124,3 +124,8 @@ img {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
 }
+
+.profile-pic {
+  max-width: 100px;
+  max-height: 100px;
+}
