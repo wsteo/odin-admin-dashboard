@@ -139,3 +139,7 @@ img {
   grid-row-start: 2;
   justify-self: center;
 }
+
+input {
+  width: 100%;
+}
