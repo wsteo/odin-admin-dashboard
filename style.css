@@ -110,7 +110,7 @@ body {
   grid-column-start: 2;
 }
 
-.sidebar,
+/* .sidebar,
 .header,
 .main-content,
 .search-bar,
@@ -125,7 +125,7 @@ body {
 .container-2,
 .project-item {
   border: 1px black solid;
-}
+} */
 
 img {
   max-width: 30px;
