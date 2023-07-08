@@ -130,3 +130,12 @@ img {
   max-height: 100px;
   border-radius: 50%;
 }
+
+.search-bar .profile-pic {
+  justify-self: center;
+}
+
+.user-info .profile-pic {
+  grid-row-start: 2;
+  justify-self: center;
+}
