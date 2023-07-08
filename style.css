@@ -57,6 +57,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 3;
   height: 100%;
+  background-color: #4ade80;
 }
 
 .navigation {
