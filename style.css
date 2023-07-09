@@ -126,6 +126,16 @@ body {
   border-radius: 10px;
 }
 
+.trending-item {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.user-profile-pic {
+  justify-self: center;
+  align-self: center;
+}
+
 /* .sidebar,
 .header,
 .main-content,
