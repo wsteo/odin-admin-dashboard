@@ -182,3 +182,12 @@ input#search {
   margin-top: 10px;
   align-content: center;
 }
+
+button {
+  background-color: #4ade80;
+  border-radius: 25px;
+  font-size: 16px;
+  max-height: 40px;
+  border-style: none;
+  font-weight: bold;
+}
