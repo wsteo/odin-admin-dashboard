@@ -39,6 +39,11 @@ body {
   grid-column-end: 2;
 }
 
+.profile-name-text {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
 .user-info .text {
   grid-column-start: 2;
 }
