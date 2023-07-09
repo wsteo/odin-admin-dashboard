@@ -55,6 +55,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-column-start: 2;
   grid-column-end: 3;
+  align-content: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -204,7 +206,7 @@ button {
   background-color: #4ade80;
   border-radius: 25px;
   font-size: 16px;
-  max-height: 40px;
+  padding: 20px;
   border-style: none;
   font-weight: bold;
 }
