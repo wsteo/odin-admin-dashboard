@@ -10,7 +10,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 1fr 5fr;
   height: 100%;
 }
 
@@ -72,6 +72,8 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 3fr 1fr;
+  padding: 25px;
+  background-color: #334155;
 }
 
 .projects {
@@ -90,11 +92,14 @@ body {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  color: white;
 }
 
 .project-item {
   margin: 10px;
-  padding: 10px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .announcements {
@@ -102,12 +107,16 @@ body {
   padding: 10px;
   grid-column-start: 2;
   grid-column-end: 3;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .trending {
   margin: 10px;
   padding: 10px;
   grid-column-start: 2;
+  background-color: white;
+  border-radius: 10px;
 }
 
 /* .sidebar,
